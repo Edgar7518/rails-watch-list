@@ -1,0 +1,13 @@
+<div class="list-container d-flex flex-column align-items-center">
+  <div class="new-list-card">
+    <h1 class="text-danger mt-3 mb-5 text-center">Add to your bookmark</h1>
+    <div class="form">
+      <%= simple_form_for [@list, @bookmark] do |f|%>
+        <%= f.association :movie, label: "Choose Movie"%>
+        <%= f.input :comment, as: :text %>
+        <%= f.submit 'Add Comment', class: "btn-create align-items-center" %>
+      <% end %>
+    </div>
+    <%= link_to 'Back', @list, id: "btn-new-comment" %>
+  </div>
+</div>

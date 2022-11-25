@@ -1,0 +1,114 @@
+.list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: monospace;
+    background-color: black;
+  }
+  
+  .list-container h1{
+    color: rgb(122, 11, 192);
+    font-family: monospace;
+  }
+  .body-container h1{
+    color: rgb(122, 11, 192);
+    font-family: monospace;
+  }
+  #banner-indexlist-img{
+    height: 75vh;
+    width: 100%;
+  }
+  
+  .body{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .card-deck{
+    width: 100%;
+    margin-bottom: 10rem;
+  }
+  .card-list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+  
+  .card-deck img{
+    width: 20rem;
+    height: 15rem;
+    box-shadow: 0 0 1em lightseagreen;
+    animation: pisca 3s infinite;
+  }
+  
+  .card-deck .card-body{
+    width: 20rem;
+    color: rgb(122, 11, 192);
+    box-shadow: 0 0 1em lightseagreen;
+    animation: pisca 3s infinite;
+    background-color: white;
+  }
+  @keyframes pisca{
+    25% {box-shadow: 0 0 1em lightseagreen; }
+    50% {box-shadow: 0 0 1em purple}
+    100% {box-shadow: 0 0 1em lightseagreen; }
+  }
+  
+  #plus-list{
+    color: rgb(122, 11, 192);
+    opacity: 0.5;
+  }
+  
+  #plus-list:hover {
+    opacity: 1;
+  }
+  
+  .form{
+    color: rgb(250, 88, 182);
+    width: 50%;
+  }
+  
+  .new-list-card{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    background-color: black;
+    border-radius: 5%;
+    box-shadow: 0 0 1em lightseagreen;
+    width: 35%;
+    height: 50vh;
+  }
+  .btn-new{
+    color: rgb(250, 88, 182);
+    font-weight: bolder;
+    margin-top: 12rem;
+  }
+  #btn-new-comment{
+    color: rgb(250, 88, 182);
+    font-weight: bolder;
+    margin-top: 5rem;
+  }
+  .btn-create{
+    height: 4.5vh;
+    color: rgb(250, 88, 182);
+    font-weight: bolder;
+  }
+  
+  .body-container{
+    padding: 5rem;
+    min-height: 100vh;
+    font-family: monospace;
+    background-color: black;
+  }
+  .body-container h5{
+    font-weight: bolder;
+  }
+  .body-container .star{
+    color: gold;
+  }
+  .card{
+    border-color: aqua;
+    box-shadow: 0 0 1em aqua;;
+  }
